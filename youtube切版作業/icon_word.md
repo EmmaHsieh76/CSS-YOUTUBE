@@ -14,6 +14,9 @@ https://fontawesome.com/search?q=search&o=r&m=free
 
 <i class="fa-solid fa-magnifying-glass"></i>
 
+# 麥克風
+
+<i class="fa-solid fa-microphone"></i>
 右側
 
 # 鈴鐺
@@ -58,6 +61,7 @@ https://fontawesome.com/search?q=search&o=r&m=free
 
 #顯示更多
 <i class="fa-brands fa-vuejs"></i>
+
 ---
 
 探索
