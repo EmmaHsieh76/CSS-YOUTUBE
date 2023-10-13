@@ -82,9 +82,10 @@ body {
 	margin: auto;
 }
 
-#head .box2 input {
-	font-size: 1rem;
-	outline: 10px;
+#header .box2 input {
+	height: 50%;
+	width: 60%;
+	border-radius: 10px 0 0 10px;
 }
 
 #header .box3 > div {
