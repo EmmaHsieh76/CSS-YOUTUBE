@@ -2,6 +2,10 @@
 
 https://fontawesome.com/search?q=search&o=r&m=free
 
+# 三顆點點
+
+<i class="fa-solid fa-ellipsis-vertical"></i>
+
 # 三條線
 
 <i class="fa-solid fa-bars"></i>
@@ -59,8 +63,9 @@ https://fontawesome.com/search?q=search&o=r&m=free
 
 <i class="fa-regular fa-thumbs-up"></i>
 
-#顯示更多
-<i class="fa-brands fa-vuejs"></i>
+# 顯示更多
+
+<i class="fa-solid fa-angle-down"></i>
 
 ---
 
