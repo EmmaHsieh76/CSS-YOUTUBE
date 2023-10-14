@@ -251,9 +251,9 @@ body {
 	display: inline-block;
 	left: 15%;
 	top: 10%;
-	/* background: lightgreen; */
-	background: rgb(31, 30, 30);
+	background: lightgreen;
 	overflow: auto;
+	text-align: center;
 }
 #content::-webkit-scrollbar {
 	width: 10px; /* 設置卷軸的寬度 */
@@ -272,12 +272,11 @@ body {
 	height: 50%;
 	display: inline-block;
 	position: relative;
-	/* background: rgb(216, 113, 154); */
-	background: rgb(31, 30, 30);
+	background: rgb(216, 113, 154);
 	font-size: 0;
-	margin-top: 0.5%;
-	margin-left: 0.5%;
-	border-radius: 5px;
+	/* margin-top: 0.5%;
+	margin-left: 0.5%; */
+	margin: 0.5% 0.2%;
 }
 
 #content .row .pic {
@@ -286,10 +285,7 @@ body {
 }
 #content .row .pic img {
 	width: 100%;
-	/* height: 100%; */
-	/* 照片邊框怎麼用都很奇怪 */
 	border-radius: 10px;
-	/* object-fit: contain; */
 }
 
 #content .col1 {
@@ -298,15 +294,13 @@ body {
 	display: inline-block;
 	position: relative;
 	top: -14%;
-	/* background: rgb(56, 42, 165); */
-	background: rgb(31, 30, 30);
+	background: rgb(56, 42, 165);
 	font-size: 1rem;
 }
 #content .col1-1 {
 	width: 80%;
 	height: auto;
-	/* background: brown; */
-	background: rgb(31, 30, 30);
+	background: brown;
 	border-radius: 50%;
 	position: relative;
 	margin: auto;
@@ -323,15 +317,14 @@ body {
 	position: relative;
 	margin-left: 5%;
 	box-sizing: border-box;
-	/* background: rgb(134, 42, 165); */
-	background: rgb(31, 30, 30);
+	background: rgb(134, 42, 165);
+
 	font-size: 1rem;
 }
 #content .col2 .col2-1 {
 	width: 100%;
 	height: 40%;
-	/* background: rgb(50, 205, 50); */
-	background: rgb(31, 30, 30);
+	background: rgb(50, 205, 50);
 	/* 兩行字以後就省略掉字 */
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
@@ -341,9 +334,42 @@ body {
 #content .col2 .col2-2 {
 	width: 100%;
 	height: 60%;
-	/* background: rgb(50, 205, 197); */
-	background: rgb(31, 30, 30);
+	background: rgb(50, 205, 197);
 	font-size: 12px;
 	position: relative;
 	padding: 10px 0;
+}
+
+/* short logo */
+#content .box1 {
+	width: 96%;
+	height: 5%;
+	display: inline-block;
+	/* display: relative; */
+	background: lightskyblue;
+	text-align: left;
+	margin: 0.5% 0;
+}
+
+#content .box1 img {
+	width: 7%;
+}
+
+#content .row2 {
+	width: 14%;
+	height: 50%;
+	display: inline-block;
+	background: lightseagreen;
+}
+
+#content > .row2>div:nth-child(1) {
+	width: 100%;
+	height: 90%;
+	background: darkslateblue;
+}
+
+#content > .row2 > div:nth-child(2) {
+	width: 100%;
+	height: 10%;
+	background: darkseagreen;
 }

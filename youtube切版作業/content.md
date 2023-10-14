@@ -48,35 +48,34 @@ BLACKPINK
 觀看次數：3.9 億次 6 個月前
 3:04
 
-
 # short 短影片
 
-## 9 오늘의 미인욕, 만옥 매주 몰입 클렌징 ASMR
+## 9 Shin ramen fried salmon
+觀看次數：454萬次
 
-觀看次數：1120 萬次
 
-## 10 真的很好吃！ 原汁原味的美式奶油炸彈甜甜圈，質量...
 
-觀看次數：534 萬次
+## 10 Cheetos hamburger 🍔🌶️🥵
+觀看次數：238萬次
 
-## 11 貓咪生氣打人，打到手都痛了
+## 11 Pancake Lifehack 🥞🧈
+觀看次數：2749萬次
 
-觀看次數：21 萬次
+## 12 Roast Beef 🍣
+觀看次數：1056萬次
 
-## 12 Sketching with the Flow (+Erasing)
+## 13 Pringles chicken 😋
+觀看次數：1.2億次
 
-觀看次數：134 萬次
-
-## 13 大安森林公園 喜愛音樂的鵝
-
-觀看次數：1698 萬次
+## 14 Spaghetti recipe 😋
+觀看次數：582萬次
 
 # 影片標題
 
 ## 15 徐馨蕾 Leilei 【溺水的魚 Drowning Fish】 Official Music Video
 
-徐馨蕾Leilei
-觀看次數：287次  6 個月前
+徐馨蕾 Leilei
+觀看次數：287 次 6 個月前
 3:52
 
 ## 16 LISA - 'MONEY' M/V
@@ -103,10 +102,10 @@ THE FIRST TAKE
 觀看次數：3031 萬次 5 年前
 5:55
 
-## 20 GAI - 愛如潮水改編+RAP版（高清去雜音）『如果你沒有她，你就一無所有？』【動態歌詞Lyrics】
+## 20 GAI - 愛如潮水改編+RAP 版（高清去雜音）『如果你沒有她，你就一無所有？』【動態歌詞 Lyrics】
 
 EHPMusicChannel
-觀看次數：1735萬次  5 年前
+觀看次數：1735 萬次 5 年前
 3:47
 
 ## 21 伍佰 Wu Bai&China Blue【Last Dance】Official Music Video(HD)
@@ -120,4 +119,3 @@ EHPMusicChannel
 華納音樂 Warner Music Taiwan
 觀看次數：1179 萬次 4 年前
 3:52
-
