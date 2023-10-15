@@ -73,6 +73,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	/* background: palevioletred; */
+	cursor: pointer;
 }
 
 #header .box .box1-2 {
@@ -84,13 +85,7 @@ body {
 	/* display: inline-block; */
 	/* position: absolute; */
 	margin: auto;
-}
-
-#header .box2 input {
-	height: 50%;
-	width: 60%;
-	border-radius: 20px 0 0 20px;
-	/* background: #000; */
+	cursor: pointer;
 }
 
 #header .box2 div {
@@ -102,6 +97,7 @@ body {
 	border-radius: 0 20px 20px 0;
 	/* background: palegoldenrod; */
 	font-size: 1.2rem;
+	cursor: pointer;
 }
 
 #header .box2 .box2-1 {
@@ -129,6 +125,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 1.2rem;
+	cursor: pointer;
 
 	/* background: palegreen; */
 }
@@ -138,46 +135,53 @@ body {
 	font-size: 12px;
 	margin-right: 5%;
 }
-/* 為什麼用::placeholder */
-#header input[type='search']::placeholder {
+
+#header input {
+	height: 50%;
+	width: 60%;
+	border-radius: 20px 0 0 20px;
 	font-size: 14px;
-	/* background: paleturquoise; */
+	background: rgb(40, 40, 40);
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	padding-left: 30px;
 }
 
 #header input::-webkit-search-cancel-button {
 	-webkit-appearance: none;
 	background-image: url(../data/Cross_icon.png);
 	background-repeat: no-repeat;
-	/* position: relative;
-	right: 10px; */
 	width: 30px;
 	height: 30px;
 	background-size: 50%;
-	background-position: 80% center;
+	background-position: center;
 	/* border-radius: 50%; */
 }
-/* #header input::-webkit-search-cancel-button:hover {
+#header input::-webkit-search-cancel-button:hover {
 	border-radius: 50%;
-	background: rgba(255, 255, 255, 0.002);
-} */
-#header input[type='search'] {
-	/* padding-left: 3%; */
-	padding-left: 40px; /* 腾出图标的空间 */
-	background-image: url(../data/search_icon.png); /* 添加背景图标 */
-	background-repeat: no-repeat;
-	background-size: 3%;
-	background-position: 15px center; /* 调整图标的位置 */
-}
-input[type='search']:focus {
-	padding-left: 60px;
-	box-shadow: 0 0 3px rgb(0, 81, 255), 0 0 1px rgb(0, 60, 255);
-	/* filter: drop-shadow(0 0 1px rgb(0, 38, 255)) drop-shadow(0 0 1px rgb(0, 38, 255)); */
+	background-color: rgba(255, 255, 255, 0.21);
 }
 
-#header input {
-	background: rgb(40, 40, 40);
-	outline: none;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+#header input:focus {
+	border: 1px solid #2979ff;
+}
+
+#header .search-icon {
+	margin-right: -3%;
+	background: url(../data/search_icon.png) center center no-repeat rgb(40, 40, 40);
+	background-size: 43%;
+	width: 6%;
+	height: 50%;
+	border: 1px solid #2979ff;
+	border-right: none;
+	border-radius: 20px 0 0 20px;
+	z-index: 1;
+	visibility: hidden;
+	user-select: none;
+}
+
+#header .box2:focus-within .search-icon {
+	visibility: visible;
 }
 
 #header .box1-1:hover,
@@ -228,6 +232,7 @@ input[type='search']:focus {
 	transform: translate(-50%);
 	white-space: nowrap;
 	/* overflow: hidden; */
+	cursor: pointer;
 }
 
 #sidebar .box div:nth-child(1) {
@@ -315,6 +320,7 @@ input[type='search']:focus {
 	text-align: center;
 	border-radius: 6px;
 	background: rgba(73, 71, 71, 0.8);
+	cursor: pointer;
 }
 
 #content-top .keyword li:hover {
@@ -356,6 +362,7 @@ input[type='search']:focus {
 	margin-left: 0.5%; */
 	margin: 0.5% 0.2%;
 	text-align: left;
+	cursor: pointer;
 }
 
 #content .row .pic {
@@ -423,7 +430,7 @@ input[type='search']:focus {
 }
 #content .col2 .col2-1 {
 	width: 100%;
-	height: 40%;
+	height: 35%;
 	/* background: rgb(50, 205, 50); */
 	/* 兩行字以後就省略掉字 */
 	display: -webkit-box;
@@ -433,11 +440,12 @@ input[type='search']:focus {
 }
 #content .col2 .col2-2 {
 	width: 100%;
-	height: 60%;
+	height: 65%;
 	/* background: rgb(50, 205, 197); */
 	font-size: 12px;
 	/* position: relative; */
 	padding: 10px 0;
+	top: -20%;
 }
 
 #content .col3 {
@@ -482,6 +490,7 @@ input[type='search']:focus {
 	/* background: lightseagreen; */
 	text-align: left;
 	margin: 0.35%;
+	cursor: pointer;
 }
 
 #content > .row2 > div:nth-child(1) {
@@ -557,6 +566,7 @@ input[type='search']:focus {
 	border: 1px solid white;
 	background: rgb(40, 40, 40);
 	border-radius: 20px;
+	cursor: pointer;
 }
 
 #content .box2:hover {
