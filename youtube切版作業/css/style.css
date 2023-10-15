@@ -105,26 +105,17 @@ body {
 }
 
 #header .box2 .box2-1 {
-	/* margin-left: 1%; */
+	/* margin-left: -1%; */
 	width: 7%;
 	border-radius: 0 20px 20px 0;
 	background: rgba(84, 76, 76, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 #header .box2 .box2-2 {
 	margin-left: 1%;
 	width: 5%;
 	border-radius: 50%;
 	background: rgba(84, 76, 76, 0.5);
-}
-
-#header .box1-1:hover,
-#header .box3-3:hover,
-#header .box3-2:hover {
-	background: rgba(255, 255, 255, 0.3);
-	border-radius: 50%;
-}
-#header .box2-2:hover {
-	background: rgba(255, 255, 255, 0.5);
 }
 
 #header .box2 #header .box3 > div {
@@ -150,10 +141,36 @@ body {
 
 #header input[type='search']::placeholder {
 	font-size: 14px;
-	padding: 0 3%;
 }
+#header input[type='search'] {
+	/* padding-left: 3%; */
+	padding-left: 40px; /* 腾出图标的空间 */
+	background-image: url(../data/search_icon.png); /* 添加背景图标 */
+	background-repeat: no-repeat;
+	background-size: 3%;
+	background-position: 15px center; /* 调整图标的位置 */
+}
+/* 改变搜索框的样式，当用户输入时 */
+input[type='search']:focus {
+	padding-left: 60px;
+	box-shadow: 0 0 3px rgb(0, 81, 255), 0 0 1px rgb(0, 60, 255);
+	/* filter: drop-shadow(0 0 1px rgb(0, 38, 255)) drop-shadow(0 0 1px rgb(0, 38, 255)); */
+}
+
 #header input {
 	background: rgb(40, 40, 40);
+	outline: none;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#header .box1-1:hover,
+#header .box3-3:hover,
+#header .box3-2:hover {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+}
+#header .box2-2:hover {
+	background: rgba(255, 255, 255, 0.5);
 }
 /* -----------側邊欄-------- */
 
@@ -498,6 +515,7 @@ body {
 }
 
 #content .box2:hover {
-	background: rgb(186, 178, 178);
+	background: rgb(57, 56, 56);
+
 	font-size: 12px;
 }
