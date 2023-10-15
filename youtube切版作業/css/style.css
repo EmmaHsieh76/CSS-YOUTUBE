@@ -130,7 +130,7 @@ body {
 	/* background: palegreen; */
 }
 #header .box3 .box3-1 {
-	background: rgb(124, 53, 13);
+	background: rgba(120, 70, 41, 0.587);
 	border-radius: 50%;
 	font-size: 12px;
 	margin-right: 5%;
