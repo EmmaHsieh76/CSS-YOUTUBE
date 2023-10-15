@@ -38,7 +38,7 @@ body {
 	position: relative;
 	display: inline-block;
 	/* background: rgb(47, 68, 255); */
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -58,8 +58,6 @@ body {
 #header .box3 {
 	width: 25%;
 	height: 100%;
-	position: relative;
-	display: inline-block;
 	/* background: rgb(245, 47, 255); */
 	font-size: 1.5rem;
 	display: flex;
@@ -67,11 +65,14 @@ body {
 	align-items: center;
 }
 
-#header .box i {
-	width: 10%;
-}
 #header .box .box1-1 {
-	margin-left: 6%;
+	margin-left: 4%;
+	width: 30%;
+	height: 45%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background: palevioletred; */
 }
 
 #header .box .box1-2 {
@@ -93,28 +94,58 @@ body {
 }
 
 #header .box2 div {
-	font-size: 1.5rem;
 	background: rgb(40, 40, 40);
 	height: 50%;
-	width: 7%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 0 20px 20px 0;
+	/* background: palegoldenrod; */
+	font-size: 1.2rem;
 }
 
+#header .box2 .box2-1 {
+	/* margin-left: 1%; */
+	width: 7%;
+	border-radius: 0 20px 20px 0;
+	background: rgba(84, 76, 76, 0.5);
+}
 #header .box2 .box2-2 {
 	margin-left: 1%;
 	width: 5%;
 	border-radius: 50%;
+	background: rgba(84, 76, 76, 0.5);
+}
+
+#header .box1-1:hover,
+#header .box3-3:hover,
+#header .box3-2:hover {
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+}
+#header .box2-2:hover {
+	background: rgba(255, 255, 255, 0.5);
 }
 
 #header .box2 #header .box3 > div {
 	margin-left: 6%;
 }
 #header .box3 div {
-	margin: 4%;
-	font-size: 1.5rem;
+	margin: 2%;
+	width: 10%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+
+	/* background: palegreen; */
+}
+#header .box3 .box3-1 {
+	background: rgb(124, 53, 13);
+	border-radius: 50%;
+	font-size: 12px;
+	margin-right: 5%;
 }
 
 #header input[type='search']::placeholder {
@@ -123,10 +154,6 @@ body {
 }
 #header input {
 	background: rgb(40, 40, 40);
-}
-#header div i:hover {
-	background: rgba(255, 255, 255, 0.3);
-	border-radius: 50%;
 }
 /* -----------側邊欄-------- */
 
@@ -246,16 +273,16 @@ body {
 }
 #content-top .keyword li {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 12px;
 	margin: 0.1rem 0.5rem;
 	padding: 0.3rem 0.5rem;
 	text-align: center;
 	border-radius: 6px;
-	background: rgba(179, 174, 171, 0.8);
+	background: rgba(73, 71, 71, 0.8);
 }
 
 #content-top .keyword li:hover {
-	background: rgba(242, 238, 236, 0.765);
+	background: rgba(242, 238, 236, 0.3);
 }
 /* --------影片欄位----------- */
 #content {
@@ -287,7 +314,7 @@ body {
 	height: 50%;
 	display: inline-block;
 	position: relative;
-	background: rgb(216, 113, 154);
+	/* background: rgb(216, 113, 154); */
 	font-size: 0;
 	/* margin-top: 0.5%;
 	margin-left: 0.5%; */
@@ -298,7 +325,7 @@ body {
 #content .row .pic {
 	width: 100%;
 	height: 60%;
-	background: #457ad5;
+	/* background: #457ad5; */
 }
 #content .row .pic img {
 	width: 100%;
@@ -331,13 +358,13 @@ body {
 	/* position: relative; */
 	position: absolute;
 	/* top: -23%; */
-	background: rgb(56, 42, 165);
+	/* background: rgb(56, 42, 165); */
 	font-size: 1rem;
 }
 #content .col1-1 {
 	width: 80%;
 	height: auto;
-	background: brown;
+	/* background: brown; */
 	border-radius: 50%;
 	position: relative;
 	margin: auto;
@@ -355,13 +382,13 @@ body {
 	position: absolute;
 	left: 15%;
 	padding-left: 2%;
-	background: rgb(134, 42, 165);
+	/* background: rgb(134, 42, 165); */
 	font-size: 1rem;
 }
 #content .col2 .col2-1 {
 	width: 100%;
 	height: 40%;
-	background: rgb(50, 205, 50);
+	/* background: rgb(50, 205, 50); */
 	/* 兩行字以後就省略掉字 */
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
@@ -371,7 +398,7 @@ body {
 #content .col2 .col2-2 {
 	width: 100%;
 	height: 60%;
-	background: rgb(50, 205, 197);
+	/* background: rgb(50, 205, 197); */
 	font-size: 12px;
 	/* position: relative; */
 	padding: 10px 0;
@@ -466,7 +493,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	border: 1px solid white;
-	background: #000;
+	background: rgb(40, 40, 40);
 	border-radius: 20px;
 }
 
