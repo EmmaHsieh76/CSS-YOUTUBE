@@ -207,13 +207,10 @@ input[type='search']:focus {
 	width: 95%;
 	height: 2rem;
 	display: inline-block;
-	box-sizing: border-box;
-	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
-	white-space: nowrap; /*不換行 */
-	overflow: hidden;
-	text-overflow: ellipsis;
+	white-space: nowrap;
+	/* overflow: hidden; */
 }
 
 #sidebar .box div:nth-child(1) {
@@ -221,12 +218,17 @@ input[type='search']:focus {
 	height: 2rem;
 	display: inline-block;
 	text-align: center;
+	overflow: hidden;
 }
 
 #sidebar .box div:nth-child(2) {
 	width: 75%;
 	height: 2rem;
 	display: inline-block;
+	/* background: palevioletred; */
+	overflow: hidden;
+	/* white-space: nowrap;  不換行  */
+	text-overflow: ellipsis;
 }
 
 #sidebar .menu .box:hover {
