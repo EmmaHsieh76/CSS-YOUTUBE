@@ -353,7 +353,7 @@ body {
 }
 #content .row {
 	width: 24%;
-	height: 50%;
+	height: 45%;
 	display: inline-block;
 	position: relative;
 	/* background: rgb(216, 113, 154); */
@@ -377,7 +377,7 @@ body {
 #content .row .pic div {
 	width: 10%;
 	height: 10%;
-	background: #000000c3;
+	background: #000000c3; /* 不能刪 */
 	position: relative;
 	bottom: 12%;
 	left: 88%;
@@ -385,7 +385,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	border-radius: 3px;
-	font-size: 10px;
+	font-size: 12px;
 	/* opacity: 1; */
 	visibility: visible;
 }
@@ -396,7 +396,7 @@ body {
 
 #content .col1 {
 	width: 15%;
-	height: 35%;
+	height: 40%;
 	display: inline-block;
 	/* position: relative; */
 	position: absolute;
@@ -419,9 +419,9 @@ body {
 }
 #content .col2 {
 	width: 75%;
-	height: 35%;
+	height: 40%;
 	display: inline-block;
-	/* position: relative; */
+	position: relative;
 	position: absolute;
 	left: 15%;
 	padding-left: 2%;
@@ -430,17 +430,18 @@ body {
 }
 #content .col2 .col2-1 {
 	width: 100%;
-	height: 35%;
+	height: 30%;
 	/* background: rgb(50, 205, 50); */
 	/* 兩行字以後就省略掉字 */
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
 	overflow: hidden;
+	padding: 1% 0;
 }
 #content .col2 .col2-2 {
 	width: 100%;
-	height: 65%;
+	height: 70%;
 	/* background: rgb(50, 205, 197); */
 	font-size: 12px;
 	/* position: relative; */
@@ -450,12 +451,12 @@ body {
 
 #content .col3 {
 	width: 10%;
-	height: 35%;
+	height: 40%;
 	display: inline-block;
 	/* position: relative; */
 	position: absolute;
 	left: 90%;
-	/* background: #000; */
+	/* background: #991c1c; */
 	font-size: 1rem;
 	padding: 1%;
 	text-align: center;
