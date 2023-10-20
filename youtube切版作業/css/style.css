@@ -207,7 +207,7 @@ body {
 	top: 10%;
 	font-size: 0;
 	display: inline-block;
-	overflow: auto;
+	overflow: hidden;
 }
 
 #sidebar .menu {
@@ -290,6 +290,10 @@ body {
 #sidebar pre {
 	font-size: 13px;
 	opacity: 0.5;
+}
+
+#sidebar:hover {
+	overflow: auto;
 }
 
 /* ----------關鍵字 --------- */
