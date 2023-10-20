@@ -201,6 +201,7 @@ body {
 	height: calc(100vh - 10%);
 	/* background: rgb(31, 30, 30); */
 	background: rgb(40, 40, 40);
+	/* background: palevioletred; */
 	position: fixed;
 	left: 0;
 	top: 10%;
@@ -297,7 +298,7 @@ body {
 	height: calc(100vh - 95%);
 	/* background: gold; */
 	left: 15%;
-	position: relative;
+	position: absolute;
 	top: 10%;
 	background: rgb(40, 40, 40);
 }
@@ -330,10 +331,9 @@ body {
 #content {
 	width: calc(100% - 15%);
 	height: calc(100vh - 15%);
-	position: relative;
-	display: inline-block;
+	position: absolute;
 	left: 15%;
-	top: 10%;
+	top: 15%;
 	/* background: lightgreen; */
 	background: rgb(40, 40, 40);
 	overflow: auto;
@@ -399,24 +399,17 @@ body {
 	height: 40%;
 	display: inline-block;
 	/* position: relative; */
-	position: absolute;
+	position: relative;
 	/* top: -23%; */
 	/* background: rgb(56, 42, 165); */
 	font-size: 1rem;
 }
-#content .col1-1 {
+#content .col1 img {
 	width: 80%;
-	height: auto;
-	/* background: brown; */
 	border-radius: 50%;
-	position: relative;
-	margin: auto;
+	margin-top: 10%;
 }
-#content .col1-1 img {
-	width: 100%;
-	height: auto;
-	border-radius: 50%;
-}
+
 #content .col2 {
 	width: 75%;
 	height: 40%;
@@ -430,7 +423,7 @@ body {
 }
 #content .col2 .col2-1 {
 	width: 100%;
-	height: 30%;
+	height: 40%;
 	/* background: rgb(50, 205, 50); */
 	/* 兩行字以後就省略掉字 */
 	display: -webkit-box;
@@ -441,7 +434,7 @@ body {
 }
 #content .col2 .col2-2 {
 	width: 100%;
-	height: 70%;
+	height: 60%;
 	/* background: rgb(50, 205, 197); */
 	font-size: 12px;
 	/* position: relative; */
@@ -460,6 +453,7 @@ body {
 	font-size: 1rem;
 	padding: 1%;
 	text-align: center;
+	margin-top: 1%;
 }
 #content .col3 i {
 	display: none;
@@ -572,6 +566,5 @@ body {
 
 #content .box2:hover {
 	background: rgb(57, 56, 56);
-
 	font-size: 12px;
 }
